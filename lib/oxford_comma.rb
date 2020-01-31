@@ -6,7 +6,7 @@ if array.size ==1
   array.join(" and ")
 else array.size >=3
   array.last.insert(0,"and ")
-  string = array.join(", ") 
+  array.join(", ") 
   
 end
 end
