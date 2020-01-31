@@ -3,8 +3,10 @@ if array.size ==1
   array.join
   elsif array.size ==2
   array.join(" and ")
-else array.join(" , ".insert([-1], "and"))
+else array.join(" , ")
  
     
 end
 end
+
+ string.insert([-1], "and")
