@@ -8,5 +8,3 @@ else array.join(" , ")
     
 end
 end
-
- string.insert([-1], "and")
