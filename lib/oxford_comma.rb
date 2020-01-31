@@ -3,7 +3,7 @@ if array.size ==1
   array.join
   elsif array.size ==2
   array.join(" and ")
-else array.join(" , ")
+else array.join(" , ").incert()
     
 end
 end
