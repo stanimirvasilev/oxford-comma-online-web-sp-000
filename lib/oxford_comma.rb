@@ -5,10 +5,8 @@ if array.size ==1
   elsif array.size ==2
   array.join(" and ")
 else array.size >=3
-  binding.pry
-  array.insert(-2,"and")
+  array.last.insert(0,"and ")
   string = array.join(", ") 
   
- 
 end
 end
