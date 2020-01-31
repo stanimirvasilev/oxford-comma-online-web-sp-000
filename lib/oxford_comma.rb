@@ -4,8 +4,9 @@ if array.size ==1
   elsif array.size ==2
   array.join(" and ")
 else array.size >=3
+  array.insert(-1, "and")
   string = array.join(", ") 
-  string.insert(-1 , "and")
+  
  
 end
 end
